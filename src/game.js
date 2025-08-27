@@ -12,8 +12,8 @@ const config = {
   scale: {
     mode: Phaser.Scale.RESIZE,   // canvas se adapta ao tamanho da tela
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    width: window.innerWidth,    // largura da tela
-    height: window.innerHeight   // altura da tela
+    width: window.innerWidth,
+    height: window.innerHeight
   },
   scene: [BootScene, GameStartScene, GameScene, GameOverScene, UIScene]
 };
